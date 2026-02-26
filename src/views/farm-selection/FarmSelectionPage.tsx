@@ -59,7 +59,7 @@ const tags: { [key in Tags]: string } = {
   lava_latch: 'Lava Latch',
   water_latch: 'Water Latch',
   bps: '{{bps}} BPS',
-  key_swap: 'Key Swap',
+  pest_farm: 'Pest Farm',
   no_key_swap: 'No Key Swap',
   key_count: '{{key_count}}-Key',
   drowning: 'Drowning',

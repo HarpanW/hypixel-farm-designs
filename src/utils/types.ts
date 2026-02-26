@@ -53,7 +53,7 @@ export enum Tags {
   lava_latch = 'lava_latch',
   water_latch = 'water_latch',
   bps = 'bps',
-  key_swap = 'key_swap',
+  pest_farm = 'pest_farm',
   no_key_swap = 'no_key_swap',
   key_count = 'key_count',
   drowning = 'drowning',
@@ -68,21 +68,21 @@ export const TagColors = {
   lava_latch: 'black', // patched
   water_latch: 'black', // patched
   bps: 'blue',
-  key_swap: 'black', // if published will be kept different repo
+  pest_farm: 'black',
   no_key_swap: 'green',
   key_count: 'brick',
   drowning: 'primary',
   burning: 'black', // outdated
   void: 'black', // outdated
   max_speed: 'black', // outdated
-  patcher: 'orange'
+  patcher: 'black' // outdated
 }
 
 //blue
 //green
 //brick
 //primary
-//orange
+
 
 // magenta
 // red
@@ -90,3 +90,4 @@ export const TagColors = {
 // lime
 // yellow
 // fire
+//orange

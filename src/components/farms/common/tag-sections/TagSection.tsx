@@ -36,7 +36,7 @@ export default function TagSection({ farm }: IProps) {
         className='mb-3'
         onSelect={(selected) => {
           if (selected) {
-            window.history.pushState(undefined, '', `/hypixel-farming${pathname}#${selected}`)
+            window.history.pushState(undefined, '', `/hypixel-farm-designs${pathname}#${selected}`)
             setSelected(selected)
           }
         }}
