@@ -64,27 +64,29 @@ export enum Tags {
 }
 
 export const TagColors = {
-  boot_swap: 'magenta',
-  lava_latch: 'brick',
-  water_latch: 'blue',
+  boot_swap: 'black', // patched
+  lava_latch: 'black', // patched
+  water_latch: 'black', // patched
   bps: 'blue',
-  key_swap: 'yellow',
+  key_swap: 'black', // if published will be kept different repo
   no_key_swap: 'green',
   key_count: 'brick',
   drowning: 'primary',
-  burning: 'fire',
-  void: 'magenta',
-  max_speed: 'ocean',
+  burning: 'black', // outdated
+  void: 'black', // outdated
+  max_speed: 'black', // outdated
   patcher: 'orange'
 }
 
+//blue
+//green
+//brick
+//primary
+//orange
+
 // magenta
 // red
-// blue
 // ocean
-// green
 // lime
 // yellow
-// orange
-// brick
 // fire

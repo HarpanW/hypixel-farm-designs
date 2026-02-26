@@ -6,10 +6,10 @@ import { CardinalDirection } from '../../cardinalDirection.ts'
 const depthless_dunce_carrot: TFarm = {
   id: 'depthless-dunce-carrot',
   name: 'The Depthless Dunce',
-  banner: '/hypixel-farming/assets/farms/carrot/depthless-dunce/depthless_dunce_carrot.png',
+  banner: '/hypixel-farm-designs/assets/farms/carrot/depthless-dunce/depthless_dunce_carrot.png',
   pictures: {
-    [Tags.drowning]: '/hypixel-farming/assets/farms/common/depthless-dunce/depthless_dunce_drowning.png',
-    [Tags.water_latch]: '/hypixel-farming/assets/farms/common/depthless-dunce/depthless_dunce_water_latch.png'
+    [Tags.drowning]: '/hypixel-farm-designs/assets/farms/common/depthless-dunce/depthless_dunce_drowning.png',
+    [Tags.water_latch]: '/hypixel-farm-designs/assets/farms/common/depthless-dunce/depthless_dunce_water_latch.png'
   },
   info: (
     <>
@@ -25,7 +25,7 @@ const depthless_dunce_carrot: TFarm = {
         </p>
         <p>
           Strings are hard to see. You can download a simple resource pack, which makes strings red,{' '}
-          <a href='/hypixel-farming/assets/resource-packs/red-string.zip' download>
+          <a href='/hypixel-farm-designs/assets/resource-packs/red-string.zip' download>
             here
           </a>
           .
@@ -39,7 +39,7 @@ const depthless_dunce_carrot: TFarm = {
       <Alert variant='info' className='mt-2'>
         Highlighted blocks are temporary and should be removed after setting spawn.
       </Alert>
-      <PlaceholderImage src='/hypixel-farming/assets/farms/common/depthless-dunce/depthless_dunce_spawn.png' />
+      <PlaceholderImage src='/hypixel-farm-designs/assets/farms/common/depthless-dunce/depthless_dunce_spawn.png' />
     </>
   ),
   tags: [Tags.bps, Tags.key_count, Tags.no_key_swap, Tags.drowning, Tags.water_latch, Tags.patcher, Tags.max_speed],
@@ -72,7 +72,7 @@ const depthless_dunce_carrot: TFarm = {
   keys: [Keys.W, Keys.LC],
   depth: 5,
   buildDifficulty: 1,
-  schema: '/hypixel-farming/assets/schemas/Depthless_Dunce_Carrot.litematic',
+  schema: '/hypixel-farm-designs/assets/schemas/Depthless_Dunce_Carrot.litematic',
   authors: ['Daladirn']
 }
 

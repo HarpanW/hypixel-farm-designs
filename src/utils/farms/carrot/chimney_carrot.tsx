@@ -5,10 +5,10 @@ import { CardinalDirection } from '../../cardinalDirection.ts'
 const chimney_carrot: TFarm = {
   id: 'chimney-carrot',
   name: 'The Chimney',
-  banner: '/hypixel-farming/assets/farms/carrot/chimney/chimney_carrot.png',
+  banner: '/hypixel-farm-designs/assets/farms/carrot/chimney/chimney_carrot.png',
   pictures: {
-    [Tags.drowning]: '/hypixel-farming/assets/farms/common/chimney/chimney_drowning.png',
-    [Tags.lava_latch]: '/hypixel-farming/assets/farms/common/chimney/chimney_lava_latch.png'
+    [Tags.drowning]: '/hypixel-farm-designs/assets/farms/common/chimney/chimney_drowning.png',
+    [Tags.lava_latch]: '/hypixel-farm-designs/assets/farms/common/chimney/chimney_lava_latch.png'
   },
   info: (
     <>
@@ -24,7 +24,7 @@ const chimney_carrot: TFarm = {
         <h2>Building tips</h2>
         <p>
           Strings are hard to see. You can download a simple resource pack, which makes strings red,{' '}
-          <a href='/hypixel-farming/assets/resource-packs/red-string.zip' download>
+          <a href='/hypixel-farm-designs/assets/resource-packs/red-string.zip' download>
             here
           </a>
           .
@@ -36,19 +36,19 @@ const chimney_carrot: TFarm = {
     <>
       <div>
         <h5>Remove highlighted redstone torch:</h5>
-        <PlaceholderImage src='/hypixel-farming/assets/farms/common/chimney/chimney_spawn_01.png' />
+        <PlaceholderImage src='/hypixel-farm-designs/assets/farms/common/chimney/chimney_spawn_01.png' />
       </div>
       <div>
         <h5>Place a block and walls like shown:</h5>
-        <PlaceholderImage src='/hypixel-farming/assets/farms/common/chimney/chimney_spawn_02.png' />
+        <PlaceholderImage src='/hypixel-farm-designs/assets/farms/common/chimney/chimney_spawn_02.png' />
       </div>
       <div>
         <h5>Add 4 snow layers and set your spawn:</h5>
-        <PlaceholderImage src='/hypixel-farming/assets/farms/common/chimney/chimney_spawn_03.png' />
+        <PlaceholderImage src='/hypixel-farm-designs/assets/farms/common/chimney/chimney_spawn_03.png' />
       </div>
       <div>
         <h5>Remove blocks you've placed and put back the redstone torch:</h5>
-        <PlaceholderImage src='/hypixel-farming/assets/farms/common/chimney/chimney_spawn_01.png' />
+        <PlaceholderImage src='/hypixel-farm-designs/assets/farms/common/chimney/chimney_spawn_01.png' />
       </div>
     </>
   ),
@@ -74,7 +74,7 @@ const chimney_carrot: TFarm = {
   keys: [Keys.W, Keys.A, Keys.LC],
   depth: 5,
   buildDifficulty: 3,
-  schema: '/hypixel-farming/assets/schemas/Chimney_Carrot.litematic',
+  schema: '/hypixel-farm-designs/assets/schemas/Chimney_Carrot.litematic',
   authors: ['Daladirn', 'Harpan']
 }
 

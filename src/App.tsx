@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
-    <Router basename='/hypixel-farming'>
+    <Router basename='/hypixel-farm-designs/'>
       <AppRouter />
     </Router>
   )
